@@ -63,6 +63,7 @@ ramips_setup_interfaces()
 		ucidef_set_interface_lan "lan1 lan2"
 		;;
 	linksys,re6500|\
+        linksys,ea8100-v1|\
 	linksys,ea7500-v2)
 	        ucidef_set_interfaces_lan_wan "eth0 rai0 ra0" "eth1"
 	        ucidef_add_switch "switch0" \
